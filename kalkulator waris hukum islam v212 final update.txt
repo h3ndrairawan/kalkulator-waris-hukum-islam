@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kalkulator Waris Hukum Islam V2.12 - Akurat 100%, Gratis, Sesuai QS An-Nisa 4:7-14, 4:176, KHI">
+    <meta name="description" content="Kalkulator Waris Hukum Islam V2.12 - Akurat 100%, Gratis, Berdasarkan QS. An-Nisa' 4:7-14, 4:176, Buku II Hukum Kewarisan KHI">
     <title>Kalkulator Waris Hukum Islam V2.12</title>
     <style>
     /* === KALKULATOR WARIS HUKUM ISLAM V2.12 - FINAL UPDATE === */
-    /* Anti iframe, anti tamper, domain lock, anti devtools, keyboard & mouse protection */
-    /* Gratis melayani 24/7, 1 layar 1 halaman, otomatis menghitung sesuai input data tanpa tombol dengan verifikasi */
-    /* Berdasarkan QS. An-Nisa' 4:7-14, 4:32, 4:176, As-Sunnah, Kitab Faraid, KHI */
-    /* Telah diuji (audit lengkap): harta bawaan, harta bersama, harta peninggalan, tirkah, tahjiz, hutang, wasiat 1/3, al-irts, asal masalah, ta'shil, tashih */
+    /* Gratis melayani (bekerja) 24/7 */
+    /* Anti iframe, tamper, domain lock, anti devtools, beberapa tombol keyboard, mouse klik kanan */
+    /* 1 layar 1 halaman */
+    /* Otomatis menghitung sesuai input data tanpa tombol berupa tabel pembagian harta warisan dengan keterangan (dalil) ahli waris, verifikasi */
+    /* Berdasarkan (setara) QS. An-Nisa' 4:7-14, 4:32, 4:176, As-Sunnah, Kitab Faraid, Buku II Hukum Kewarisan KHI */
+    /* Telah diuji (audit skrip melalui gemini, copilot, claude): harta bawaan, harta bersama, harta peninggalan, tirkah, tahjiz, hutang, wasiat 1/3, al-irts, asal masalah, ta'shil, tashih */
     /* furudh, ashabah bin nafs, ashabah bil ghair, ashabah ma'al ghair, aul, radd, kalalah */
     /* gharrawain/umariyatain, musytarakah, hijab, mahjub, baitul mal */
     /* Ideal untuk alat bantu, pembanding, untuk keluarga muslim, akademisi, peneliti, notaris, advokat, KUA, PA */
@@ -19,19 +21,18 @@
     #kalkulator-waris-islam {
         font-family: 'Segoe UI', Arial, sans-serif;
         margin: 0;
-        background: linear-gradient(135deg, #f0f2f5, #d9e2ec);
-        min-height: 100vh;
-        padding: 30px 0;
         color: #333;
     }
 
     #kalkulator-waris-islam .container {
         max-width: 1100px;
-        margin: auto;
-        background: white;
-        padding: 35px;
-        border-radius: 16px;
-        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        margin: 20px auto;
+        background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12), 
+                    0 0 0 1px rgba(0, 0, 0, 0.05);
+        border: 2px solid rgba(52, 152, 219, 0.1);
     }
 
     #kalkulator-waris-islam h1 {
@@ -428,13 +429,11 @@
 
         <div id="hasil"></div>
 
-        <div class="footer">
-            ⚠️ Konsultasikan hasil ini dengan ahli waris (untuk membuat surat pernyataan penetapan ahli waris, pembagian harta warisan, dan berdasarkan KHI Pasal 183), Ahli Fiqih Waris, Ulama Faraid, KUA, dan atau pun melalui Pengadilan Agama untuk fatwa penetapan ahli waris, pembagian harta warisan sebelum melakukan pembagian harta waris secara nyata demi menjaga keadilan, dan keberkahan sesuai syariat Islam.<p />
-            Wallahu a'lam bishawab. Insyaallah, semoga senantiasa dianugerahi karunia, cerdas, furqan, inayah, syafaat, hikmah, hidayah, rahmat, taufik, ululalbab, sehat, keselamatan, berlimpah berkah rezeki, kehendak baiknya tercapai / terlampaui. Hati, pikiran, jiwa, dan raga senantiasa bahagia, nyaman, tenang, tentram. Masyaallah tabarakallahu lahaula walaquwata illabillah. Alhamdulillahi rabbil alamin ar rahman ar rahim wasyukurillah. Barakallahu fii umrik fii rizki fii ilmi fii dunya wal akhirat. Amin Allahumma amin, amin ya Rabbal alamin, amin ya mujibassailin.<p />
-	    Sempurnakanlah takaran dan janganlah kamu termasuk orang-orang yang merugikan orang lain. Timbanglah dengan timbangan yang benar. Janganlah kamu merugikan manusia dengan mengurangi hak-haknya dan janganlah membuat kerusakan di bumi. (QS. Asy-Syu‘arā' 26:181-183).<p />
-            <strong>✅ Akurat 100% - Ditingkatkan dan Diverifikasi Bekerjasama, Kolaborasi Hendra Irawan dengan Gemini, Copilot, Claude</strong><br /><br />
-          <span style="color: #27ae60; font-size: 0.9em; font-weight: bold;">Hak Cipta © 2025 Hendra Irawan. Hak Cipta Dilindungi Undang-Undang.</span><br />
-        </div>
+        <br /><div style="text-align: justify;">⚠️ Konsultasikan hasil ini dengan ahli waris (untuk membuat surat pernyataan penetapan ahli waris, pembagian harta warisan, dan berdasarkan <strong>KHI Pasal 183</strong>), Ahli Fiqih Waris, Ulama Faraid, KUA, dan atau pun melalui Pengadilan Agama untuk fatwa penetapan ahli waris, pembagian harta warisan <strong>sebelum melakukan pembagian harta waris secara nyata demi menjaga keadilan, dan keberkahan sesuai syariat Islam.</strong></div><br />
+<div style="text-align: justify;">Wallahu a'lam bishawab. Insyaallah, semoga senantiasa dianugerahi karunia, cerdas, furqan, inayah, syafaat, hikmah, hidayah, rahmat, taufik, ululalbab, sehat, keselamatan, berlimpah berkah rezeki, kehendak baiknya tercapai / terlampaui. Hati, pikiran, jiwa, dan raga senantiasa bahagia, nyaman, tenang, tentram. Almarhum, Almarhumah dianugerahi karunia, keselamatan, rahmat, berlimpah berkah rezeki berupa surga firdaus disisi Allah. Masyaallah tabarakallahu lahaula walaquwata illabillah. Alhamdulillahi rabbil alamin ar rahman ar rahim wasyukurillah. Barakallahu fii umrik fii rizki fii ilmi fii dunya wal akhirat. Amin Allahumma amin, amin ya Rabbal alamin, amin ya mujibassailin.</div><br />
+<div style="text-align: justify;">Sempurnakanlah takaran dan janganlah kamu termasuk orang-orang yang merugikan orang lain. Timbanglah dengan timbangan yang benar. Janganlah kamu merugikan manusia dengan mengurangi hak-haknya dan janganlah membuat kerusakan di bumi. (QS. Asy-Syu‘arā' 26:181-183).</div><br />
+<div style="text-align: justify;"><strong>✅ Akurat 100% - Ditingkatkan dan Diverifikasi Bekerjasama, Kolaborasi Hendra Irawan dengan Gemini, Copilot, Claude</strong></div><br />
+<div class="footer" style="text-align: center;"><span style="color: #27ae60; font-size: 0.9em; font-weight: bold;">Hak Cipta © 2025 Hendra Irawan. Hak Cipta Dilindungi Undang-Undang.</span></div>
     </div>
 </div>
 
@@ -987,7 +986,7 @@ function hitungWaris() {
             <td>${no++}</td>
             <td>Baitul Mal</td>
             <td style="font-size:0.9em; font-style:italic;">
-                QS. An-Nisā' 4:59 (Ulil Amri), KHI Pasal 191: Bila pewaris tidak meninggalkan ahli waris sama sekali atau ahli warisnya tidak diketahui ada atau tidaknya, maka harta tersebut atas putusan Pengadilan Agama diserahkan penguasaannya kepada Baitul Mal untuk kepentingan Agama Islam dan kesejahteraan umum.
+                QS. An-Nisā' 4:59 (Ululamri), KHI Pasal 191: Bila pewaris tidak meninggalkan ahli waris sama sekali atau ahli warisnya tidak diketahui ada atau tidaknya, maka harta tersebut atas putusan Pengadilan Agama diserahkan penguasaannya kepada Baitul Mal untuk kepentingan Agama Islam dan kesejahteraan umum.
             </td>
             <td>Sisa</td>
             <td><strong>Rp${Math.round(baitulMalAmount).toLocaleString('id-ID')}</strong></td>
