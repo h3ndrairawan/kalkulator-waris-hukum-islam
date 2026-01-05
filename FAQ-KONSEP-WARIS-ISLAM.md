@@ -47,15 +47,14 @@ Ahli waris ini mendapat bagian yang telah ditentukan dalam Al-Quran:
 
 | No | Ahli Waris | Bagian |
 |----|-----------|--------|
-| 1 | Istri (Janda) | 1/8 atau 1/4 |
-| 2 | Suami (Duda) | 1/2 atau 1/4 |
+| 1 | Istri (Janda) | 1/8 (jika ada anak), atau 1/4 (jika tidak ada anak) |
+| 2 | Suami (Duda) | 1/2 (jika tidak ada anak), atau 1/4 (jika ada anak) |
 | 3 | Anak Perempuan | 1/2, 2/3, atau turut sebagai Ashabah |
 | 4 | Anak Laki-laki | Ashabah (seluruh sisa) |
 | 5 | Ayah | 1/6 atau Ashabah |
 | 6 | Ibu | 1/6 atau 1/3 |
-| 7 | Kakak Perempuan Seibu | 1/2 atau 1/6 |
-| 8 | Kakak Perempuan Seayah | 1/2, 2/3, atau turut sebagai Ashabah |
-| 9 | Saudara Seibu | 1/6 atau 1/3 |
+| 7 | Saudara laki-laki dan saudara perempuan seibu (bila seorang meninggal tanpa meninggalkan anak dan ayah) | masing-masing mendapat 1/6 bagian, atau bila mereka itu dua orang atau lebih maka mereka bersama-sama mendapat 1/3 bagian |
+| 8 | Saudara Perempuan kandung atau Seayah | 1/2, 2/3, atau turut sebagai Ashabah |
 
 ### Keterangan Ahli Waris:
 
